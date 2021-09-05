@@ -317,6 +317,12 @@ export const Select = () => (
   </>
 );
 
+export const MultiSelect = () => (
+  <>
+    {InputMocks.createInput(InputMocks.inputMultiSelectProps)}
+  </>
+);
+
 export const SelectWithAccordion = () => (
   <>
     {InputMocks.createInput(InputMocks.inputSelectProps, {
